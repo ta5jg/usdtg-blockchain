@@ -1,0 +1,48 @@
+{
+  "name": "TetherGround USD",
+  "symbol": "USDTg",
+  "type": "TRC20",
+  "address": "TEpGiLGNB7W9W26LbvtU9wdukrLgLZwFgr",
+  "decimals": 6,
+  "description": "USDTgToken (USDTg) is a decentralized, TRON-based stable token designed for speed, affordability, and transparency.",
+  "website": "https://usdtg.net",
+  "explorer": "https://tronscan.org/#/contract/TEpGiLGNB7W9W26LbvtU9wdukrLgLZwFgr",
+  "logo": "https://usdtg.net/images/logo.png",
+  "whitepaper": "https://www.usdtg.net/whitepaper.html",
+  "github": "https://github.com/ta5jg/usdtg-blockchain",
+  "telegram": "https://t.me/usdtg_token",
+  "tags": [
+    "stablecoin",
+    "tron",
+    "defi",
+    "payments",
+    "sunswap"
+  ],
+  "verified": true,
+  "audited": false,
+  "multisig": false,
+  "timelock": false,
+  "pausable": false,
+  "upgradeable": false,
+  "team": {
+    "developer": "Irfan Gedik",
+    "company": "TG Group Technology",
+    "email": "irfan@tg-grouptechnology.com"
+  },
+  "contact": {
+    "email": "info@usdtg.net",
+    "website": "https://usdtg.net",
+    "telegram": "https://t.me/usdtg_token"
+  },
+  "socials": {
+    "website": "https://usdtg.net",
+    "whitepaper": "https://www.usdtg.net/whitepaper.html",
+    "github": "https://github.com/ta5jg/usdtg-blockchain",
+    "telegram": "https://t.me/usdtg_token"
+  },
+  "metadata": {
+    "version": "1.0.0",
+    "lastUpdated": "2025-01-21",
+    "source": "Official USDTg Team"
+  }
+}

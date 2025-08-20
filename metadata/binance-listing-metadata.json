@@ -1,0 +1,119 @@
+{
+  "name": "TetherGround USD",
+  "symbol": "USDTg",
+  "description": "USDTgToken (USDTg) is a decentralized, TRON-based stable token designed for speed, affordability, and transparency. It supports rapid transaction execution and is ideal for cross-border payments and DeFi integration.",
+  "website": "https://usdtg.net",
+  "whitepaper": "https://www.usdtg.net/whitepaper.html",
+  "github": "https://github.com/ta5jg/usdtg-blockchain",
+  "logo": "https://usdtg.net/images/logo.png",
+  "contracts": {
+    "tron": {
+      "address": "TEpGiLGNB7W9W26LbvtU9wdukrLgLZwFgr",
+      "network": "TRON",
+      "standard": "TRC20",
+      "verified": true,
+      "explorer": "https://tronscan.org/#/contract/TEpGiLGNB7W9W26LbvtU9wdukrLgLZwFgr"
+    }
+  },
+  "tokenomics": {
+    "totalSupply": "1000000000",
+    "maxSupply": "100000000000",
+    "decimals": 6,
+    "circulatingSupply": "1000000000",
+    "burnedTokens": "0",
+    "lockedTokens": "0"
+  },
+  "features": [
+    "Fast Transactions",
+    "Low Fees",
+    "Cross-border Payments",
+    "DeFi Integration",
+    "Smart Contract Verified",
+    "Transparent",
+    "Decentralized"
+  ],
+  "useCases": [
+    "Digital Payments",
+    "Remittances",
+    "DeFi Protocols",
+    "Cross-border Transactions",
+    "E-commerce",
+    "Gaming",
+    "NFT Marketplaces"
+  ],
+  "team": {
+    "developer": "Irfan Gedik",
+    "company": "TG Group Technology",
+    "email": "irfan@tg-grouptechnology.com",
+    "alternateEmails": [
+      "info@usdtg.net",
+      "irfangedik@gmail.com"
+    ]
+  },
+  "socials": {
+    "telegram": "https://t.me/usdtg_token",
+    "github": "https://github.com/ta5jg/usdtg-blockchain",
+    "website": "https://usdtg.net",
+    "whitepaper": "https://www.usdtg.net/whitepaper.html"
+  },
+  "exchanges": {
+    "current": [],
+    "planned": [
+      "SunSwap (TRON)",
+      "PancakeSwap (BSC)",
+      "Uniswap (Ethereum)"
+    ]
+  },
+  "wallets": {
+    "supported": [
+      "TronLink",
+      "Trust Wallet",
+      "MetaMask (with network switching)",
+      "Ledger",
+      "Trezor"
+    ]
+  },
+  "security": {
+    "audited": false,
+    "verified": true,
+    "multisig": false,
+    "timelock": false,
+    "pausable": false,
+    "upgradeable": false
+  },
+  "roadmap": {
+    "phase1": {
+      "status": "completed",
+      "items": [
+        "Smart Contract Development",
+        "TRON Network Deployment",
+        "Contract Verification",
+        "Basic Website"
+      ]
+    },
+    "phase2": {
+      "status": "in_progress",
+      "items": [
+        "Mobile Wallet Development",
+        "DEX Integration",
+        "Price Feed Integration",
+        "Community Building"
+      ]
+    },
+    "phase3": {
+      "status": "planned",
+      "items": [
+        "CEX Listings",
+        "Cross-chain Bridges",
+        "DeFi Protocols",
+        "Governance Token"
+      ]
+    }
+  },
+  "metadata": {
+    "version": "1.0.0",
+    "lastUpdated": "2025-01-21",
+    "source": "Official USDTg Team",
+    "license": "MIT"
+  }
+}

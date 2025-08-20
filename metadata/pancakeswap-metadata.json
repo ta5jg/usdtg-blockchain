@@ -1,0 +1,49 @@
+{
+  "name": "TetherGround USD",
+  "symbol": "USDTg",
+  "type": "BEP20",
+  "address": "0x0000000000000000000000000000000000000000",
+  "decimals": 18,
+  "description": "USDTgToken (USDTg) is a decentralized, cross-chain stable token designed for speed, affordability, and transparency.",
+  "website": "https://usdtg.net",
+  "explorer": "https://bscscan.com/token/0x0000000000000000000000000000000000000000",
+  "logo": "https://usdtg.net/images/logo.png",
+  "whitepaper": "https://www.usdtg.net/whitepaper.html",
+  "github": "https://github.com/ta5jg/usdtg-blockchain",
+  "telegram": "https://t.me/usdtg_token",
+  "tags": [
+    "stablecoin",
+    "bsc",
+    "defi",
+    "payments",
+    "pancakeswap"
+  ],
+  "verified": false,
+  "audited": false,
+  "multisig": false,
+  "timelock": false,
+  "pausable": false,
+  "upgradeable": false,
+  "team": {
+    "developer": "Irfan Gedik",
+    "company": "TG Group Technology",
+    "email": "irfan@tg-grouptechnology.com"
+  },
+  "contact": {
+    "email": "info@usdtg.net",
+    "website": "https://usdtg.net",
+    "telegram": "https://t.me/usdtg_token"
+  },
+  "socials": {
+    "website": "https://usdtg.net",
+    "whitepaper": "https://www.usdtg.net/whitepaper.html",
+    "github": "https://github.com/ta5jg/usdtg-blockchain",
+    "telegram": "https://t.me/usdtg_token"
+  },
+  "metadata": {
+    "version": "1.0.0",
+    "lastUpdated": "2025-01-21",
+    "source": "Official USDTg Team",
+    "note": "BSC contract address placeholder - needs deployment"
+  }
+}
