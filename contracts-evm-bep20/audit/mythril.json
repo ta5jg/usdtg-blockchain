@@ -1,0 +1,9 @@
+{
+  "solc": "0.8.20",
+  "execution-timeout": 60,
+  "infura-id": "",
+  "solc-args": "--base-path . --allow-paths . --include-path node_modules",
+  "max-depth": 30,
+  "loop-bound": 10,
+  "enable-assertions": true
+}

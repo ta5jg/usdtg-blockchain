@@ -1,0 +1,74 @@
+digraph G {
+  graph [ ratio = "auto", page = "100", compound =true ];
+subgraph "clusterMultisigWallet" {
+  graph [ label = "MultisigWallet", color = "lightgray", style = "filled", bgcolor = "lightgray" ];
+  "MultisigWallet.<Constructor>" [ label = "<Constructor>", color = "green" ];
+  "MultisigWallet.onlyTokenContract" [ label = "onlyTokenContract", color = "yellow" ];
+  "MultisigWallet.onlySigner" [ label = "onlySigner", color = "yellow" ];
+  "MultisigWallet.transactionExists" [ label = "transactionExists", color = "yellow" ];
+  "MultisigWallet.notExecuted" [ label = "notExecuted", color = "yellow" ];
+  "MultisigWallet.notConfirmed" [ label = "notConfirmed", color = "yellow" ];
+  "MultisigWallet.submitTransaction" [ label = "submitTransaction", color = "blue" ];
+  "MultisigWallet.confirmTransaction" [ label = "confirmTransaction", color = "blue" ];
+  "MultisigWallet.revokeConfirmation" [ label = "revokeConfirmation", color = "blue" ];
+  "MultisigWallet.executeTransaction" [ label = "executeTransaction" ];
+  "MultisigWallet.addSigner" [ label = "addSigner", color = "blue" ];
+  "MultisigWallet.removeSigner" [ label = "removeSigner", color = "blue" ];
+  "MultisigWallet.updateRequiredSignatures" [ label = "updateRequiredSignatures", color = "blue" ];
+  "MultisigWallet.getTransaction" [ label = "getTransaction", color = "blue" ];
+  "MultisigWallet.getSigners" [ label = "getSigners", color = "blue" ];
+  "MultisigWallet.isConfirmed" [ label = "isConfirmed", color = "blue" ];
+  "MultisigWallet.getTransactionConfirmations" [ label = "getTransactionConfirmations", color = "blue" ];
+  "MultisigWallet.getPendingTransactions" [ label = "getPendingTransactions", color = "blue" ];
+  "MultisigWallet.emergencyPause" [ label = "emergencyPause", color = "blue" ];
+  "MultisigWallet.emergencyUnpause" [ label = "emergencyUnpause", color = "blue" ];
+  "MultisigWallet.<Receive Ether>" [ label = "<Receive Ether>", color = "blue" ];
+  "MultisigWallet.address" [ label = "address" ];
+  "MultisigWallet._grantRole" [ label = "_grantRole" ];
+}
+
+  "MultisigWallet.<Constructor>";
+  "MultisigWallet.address";
+  "MultisigWallet._grantRole";
+  "MultisigWallet.transactionExists";
+  "MultisigWallet.submitTransaction";
+  "MultisigWallet.confirmTransaction";
+  "MultisigWallet.executeTransaction";
+  "MultisigWallet.addSigner";
+  "MultisigWallet.<Constructor>" -> "MultisigWallet.address" [ color = "green" ];
+  "MultisigWallet.<Constructor>" -> "MultisigWallet._grantRole" [ color = "green" ];
+  "MultisigWallet.transactionExists" -> "MultisigWallet.address" [ color = "green" ];
+  "MultisigWallet.submitTransaction" -> "MultisigWallet.address" [ color = "green" ];
+  "MultisigWallet.confirmTransaction" -> "MultisigWallet.executeTransaction" [ color = "green" ];
+  "MultisigWallet.addSigner" -> "MultisigWallet.address" [ color = "green" ];
+
+
+rankdir=LR
+node [shape=plaintext]
+subgraph cluster_01 { 
+label = "Legend";
+key [label=<<table border="0" cellpadding="2" cellspacing="0" cellborder="0">
+  <tr><td align="right" port="i1">Internal Call</td></tr>
+  <tr><td align="right" port="i2">External Call</td></tr>
+  <tr><td align="right" port="i2">Custom Error Call</td></tr>
+  <tr><td align="right" port="i3">Defined Contract</td></tr>
+  <tr><td align="right" port="i4">Undefined Contract</td></tr>
+  </table>>]
+key2 [label=<<table border="0" cellpadding="2" cellspacing="0" cellborder="0">
+  <tr><td port="i1">&nbsp;&nbsp;&nbsp;</td></tr>
+  <tr><td port="i2">&nbsp;&nbsp;&nbsp;</td></tr>
+  <tr><td port="i3" bgcolor="lightgray">&nbsp;&nbsp;&nbsp;</td></tr>
+  <tr><td port="i4">
+    <table border="1" cellborder="0" cellspacing="0" cellpadding="7" color="lightgray">
+      <tr>
+       <td></td>
+      </tr>
+     </table>
+  </td></tr>
+  </table>>]
+key:i1:e -> key2:i1:w [color="green"]
+key:i2:e -> key2:i2:w [color="orange"]
+key:i2:e -> key2:i2:w [color="red"]
+}
+}
+

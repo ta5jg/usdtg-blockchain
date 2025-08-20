@@ -1,0 +1,81 @@
+digraph G {
+  graph [ ratio = "auto", page = "100", compound =true ];
+subgraph "clusterVestingManager" {
+  graph [ label = "VestingManager", color = "lightgray", style = "filled", bgcolor = "lightgray" ];
+  "VestingManager.<Constructor>" [ label = "<Constructor>", color = "green" ];
+  "VestingManager.onlyTokenContract" [ label = "onlyTokenContract", color = "yellow" ];
+  "VestingManager.createVestingWallet" [ label = "createVestingWallet", color = "blue" ];
+  "VestingManager.getVestingWallet" [ label = "getVestingWallet", color = "blue" ];
+  "VestingManager.transferToVesting" [ label = "transferToVesting", color = "blue" ];
+  "VestingManager._grantRole" [ label = "_grantRole" ];
+  "VestingManager.address" [ label = "address" ];
+  "VestingManager.VestingWallet" [ label = "VestingWallet" ];
+  "VestingManager.payable" [ label = "payable" ];
+  "VestingManager.IERC20" [ label = "IERC20" ];
+}
+
+subgraph "clusterVestingWallet" {
+  graph [ label = "VestingWallet", color = "lightgray" ];
+  "VestingWallet.released" [ label = "released" ];
+  "VestingWallet.start" [ label = "start" ];
+  "VestingWallet.duration" [ label = "duration" ];
+}
+
+  "VestingManager.<Constructor>";
+  "VestingManager._grantRole";
+  "VestingManager.createVestingWallet";
+  "VestingManager.address";
+  "VestingManager.getVestingWallet";
+  "VestingManager.VestingWallet";
+  "VestingManager.payable";
+  "VestingWallet.released";
+  "VestingWallet.start";
+  "VestingWallet.duration";
+  "VestingManager.transferToVesting";
+  "VestingManager.IERC20";
+  "VestingManager.<Constructor>" -> "VestingManager._grantRole" [ color = "green" ];
+  "VestingManager.<Constructor>" -> "VestingManager._grantRole" [ color = "green" ];
+  "VestingManager.createVestingWallet" -> "VestingManager.address" [ color = "green" ];
+  "VestingManager.createVestingWallet" -> "VestingManager.address" [ color = "green" ];
+  "VestingManager.createVestingWallet" -> "VestingManager.address" [ color = "green" ];
+  "VestingManager.getVestingWallet" -> "VestingManager.address" [ color = "green" ];
+  "VestingManager.getVestingWallet" -> "VestingManager.VestingWallet" [ color = "green" ];
+  "VestingManager.getVestingWallet" -> "VestingManager.payable" [ color = "green" ];
+  "VestingManager.getVestingWallet" -> "VestingWallet.released" [ color = "orange" ];
+  "VestingManager.getVestingWallet" -> "VestingManager.address" [ color = "green" ];
+  "VestingManager.getVestingWallet" -> "VestingManager.address" [ color = "green" ];
+  "VestingManager.getVestingWallet" -> "VestingWallet.start" [ color = "orange" ];
+  "VestingManager.getVestingWallet" -> "VestingWallet.duration" [ color = "orange" ];
+  "VestingManager.transferToVesting" -> "VestingManager.address" [ color = "green" ];
+  "VestingManager.transferToVesting" -> "VestingManager.IERC20" [ color = "green" ];
+
+
+rankdir=LR
+node [shape=plaintext]
+subgraph cluster_01 { 
+label = "Legend";
+key [label=<<table border="0" cellpadding="2" cellspacing="0" cellborder="0">
+  <tr><td align="right" port="i1">Internal Call</td></tr>
+  <tr><td align="right" port="i2">External Call</td></tr>
+  <tr><td align="right" port="i2">Custom Error Call</td></tr>
+  <tr><td align="right" port="i3">Defined Contract</td></tr>
+  <tr><td align="right" port="i4">Undefined Contract</td></tr>
+  </table>>]
+key2 [label=<<table border="0" cellpadding="2" cellspacing="0" cellborder="0">
+  <tr><td port="i1">&nbsp;&nbsp;&nbsp;</td></tr>
+  <tr><td port="i2">&nbsp;&nbsp;&nbsp;</td></tr>
+  <tr><td port="i3" bgcolor="lightgray">&nbsp;&nbsp;&nbsp;</td></tr>
+  <tr><td port="i4">
+    <table border="1" cellborder="0" cellspacing="0" cellpadding="7" color="lightgray">
+      <tr>
+       <td></td>
+      </tr>
+     </table>
+  </td></tr>
+  </table>>]
+key:i1:e -> key2:i1:w [color="green"]
+key:i2:e -> key2:i2:w [color="orange"]
+key:i2:e -> key2:i2:w [color="red"]
+}
+}
+

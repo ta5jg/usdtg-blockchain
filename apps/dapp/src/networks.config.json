@@ -1,0 +1,14 @@
+{
+  "tron": {
+    "label": "TRON",
+    "token": { "symbol": "USDTg", "address": "${VITE_TRON_USDTG}", "decimals": "${VITE_TRON_USDTG_DECIMALS}" },
+    "lp": { "address": "${VITE_TRON_LP_ADDRESS}" },
+    "staking": { "address": "${VITE_TRON_STAKING_ADDRESS}" }
+  },
+  "evm": {
+    "label": "BSC",
+    "token": { "symbol": "USDTg", "address": "${VITE_EVM_USDTG}", "decimals": "${VITE_EVM_USDTG_DECIMALS}" },
+    "lp": { "address": "${VITE_EVM_LP_ADDRESS}" },
+    "staking": { "address": "${VITE_EVM_STAKING_ADDRESS}" }
+  }
+}

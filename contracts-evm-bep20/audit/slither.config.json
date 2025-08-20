@@ -1,0 +1,7 @@
+{
+  "solc-remaps": [],
+  "exclude": [],
+  "paths": {
+    "contracts": "contracts"
+  }
+}

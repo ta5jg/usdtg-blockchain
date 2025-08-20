@@ -1,0 +1,9 @@
+digraph G {
+  graph [ ratio = "auto", page = "40" ];
+  "MultisigWallet";
+  "AccessControl";
+  "ReentrancyGuard";
+  "MultisigWallet" -> "AccessControl";
+  "MultisigWallet" -> "ReentrancyGuard";
+}
+

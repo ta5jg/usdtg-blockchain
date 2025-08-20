@@ -1,0 +1,5 @@
+test_mode: assertion
+contract: USDTgToken
+tests:
+  - name: no_blacklisted_transfer
+    property: "!blacklisted[msg.sender]"

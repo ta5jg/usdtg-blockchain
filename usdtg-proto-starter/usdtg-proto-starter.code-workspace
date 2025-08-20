@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"name": "usdtg-proto-starter",
+			"path": "."
+		},
+		{
+			"name": "usdtg-monorepo-v5",
+			"path": "../usdtg-monorepo-v5"
+		}
+	],
+	"settings": {}
+}

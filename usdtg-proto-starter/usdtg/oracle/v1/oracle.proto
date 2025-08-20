@@ -1,0 +1,35 @@
+syntax = "proto3";
+
+package usdtg.oracle.v1;
+
+option go_package = "usdtg/gen/go/usdtg/oracle/v1;oraclev1";
+
+import "google/protobuf/timestamp.proto";
+import "validate/validate.proto";
+
+message Price {
+  string pair = 1; // e.g. "USDTG/USD"
+  double value = 2;
+  google.protobuf.Timestamp as_of = 3;
+}
+
+message GetPriceRequest {
+  string pair = 1 [(validate.rules).string = {min_len: 3}];
+}
+
+message GetPriceResponse {
+  Price price = 1;
+}
+
+message StreamPricesRequest {
+  string pair = 1 [(validate.rules).string = {min_len: 3}];
+}
+
+message StreamPricesResponse {
+  Price price = 1;
+}
+
+service OracleService {
+  rpc GetPrice(GetPriceRequest) returns (GetPriceResponse);
+  rpc StreamPrices(StreamPricesRequest) returns (stream StreamPricesResponse);
+}

@@ -1,0 +1,16 @@
+[profile.default]
+src = 'contracts'
+out = 'out'
+libs = ['lib']
+optimizer = true
+optimizer_runs = 200
+evm_version = 'london'
+fuzz_runs = 1000
+remappings = [
+    "@openzeppelin 2/=node_modules/@openzeppelin 2/",
+    "@openzeppelin/=node_modules/@openzeppelin/",
+    "eth-gas-reporter 2/=node_modules/eth-gas-reporter 2/",
+    "eth-gas-reporter/=node_modules/eth-gas-reporter/",
+    "hardhat 2/=node_modules/hardhat 2/",
+    "hardhat/=node_modules/hardhat/",
+]

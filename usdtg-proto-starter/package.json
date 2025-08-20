@@ -1,0 +1,38 @@
+{
+  "name": "usdtg-proto-starter",
+  "version": "1.0.0",
+  "description": "USDTg Protocol Buffer Starter with gRPC Server, Client and Tests",
+  "main": "src/server/token-server.js",
+  "scripts": {
+    "start": "node src/server/token-server.js",
+    "server": "node src/server/token-server.js",
+    "client:demo": "node src/client/token-client.js demo",
+    "client:test": "node src/client/token-client.js test",
+    "test": "node src/test/token-test.js",
+    "dev": "nodemon src/server/token-server.js",
+    "proto:generate": "buf generate",
+    "proto:lint": "buf lint",
+    "proto:update": "buf dep update"
+  },
+  "keywords": [
+    "grpc",
+    "protobuf",
+    "blockchain",
+    "token",
+    "usdtg"
+  ],
+  "author": "USDTg Team",
+  "license": "MIT",
+  "dependencies": {
+    "@grpc/grpc-js": "^1.13.4",
+    "@grpc/proto-loader": "^0.8.0",
+    "@improbable-eng/grpc-web": "^0.15.0",
+    "protobufjs": "^7.5.4"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.0"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}

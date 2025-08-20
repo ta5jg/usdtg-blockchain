@@ -1,0 +1,20 @@
+{
+  "base": "uusdtg",
+  "display": "usdtg",
+  "name": "USdTG",
+  "symbol": "USDTG",
+  "description": "USdTG native token (micro unit: uusdtg)",
+  "denom_units": [
+    {
+      "denom": "uusdtg",
+      "exponent": 0,
+      "aliases": [
+        "micro-usdtg"
+      ]
+    },
+    {
+      "denom": "usdtg",
+      "exponent": 6
+    }
+  ]
+}

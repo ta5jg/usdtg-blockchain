@@ -1,0 +1,9 @@
+digraph G {
+  graph [ ratio = "auto", page = "40" ];
+  "USDeXchangeToken";
+  "ERC20";
+  "ReentrancyGuard";
+  "USDeXchangeToken" -> "ERC20";
+  "USDeXchangeToken" -> "ReentrancyGuard";
+}
+

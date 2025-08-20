@@ -1,0 +1,85 @@
+digraph G {
+  graph [ ratio = "auto", page = "100", compound =true ];
+subgraph "clusterCounterManager" {
+  graph [ label = "CounterManager", color = "lightgray", style = "filled", bgcolor = "lightgray" ];
+  "CounterManager.current" [ label = "current", color = "blue" ];
+  "CounterManager.increment" [ label = "increment", color = "blue" ];
+  "CounterManager.decrement" [ label = "decrement", color = "blue" ];
+  "CounterManager.reset" [ label = "reset", color = "blue" ];
+  "CounterManager.set" [ label = "set", color = "blue" ];
+  "CounterManager.add" [ label = "add", color = "blue" ];
+  "CounterManager.subtract" [ label = "subtract", color = "blue" ];
+  "CounterManager._getCounter" [ label = "_getCounter", color = "white" ];
+  "CounterManager._increment" [ label = "_increment", color = "white" ];
+  "CounterManager._decrement" [ label = "_decrement", color = "white" ];
+}
+
+subgraph "clusterCounters.Counter" {
+  graph [ label = "Counters.Counter", color = "lightgray" ];
+  "Counters.Counter.current" [ label = "current" ];
+  "Counters.Counter.increment" [ label = "increment" ];
+  "Counters.Counter.decrement" [ label = "decrement" ];
+}
+
+  "CounterManager.current";
+  "Counters.Counter.current";
+  "CounterManager.increment";
+  "Counters.Counter.increment";
+  "CounterManager.decrement";
+  "Counters.Counter.decrement";
+  "CounterManager.reset";
+  "CounterManager.set";
+  "CounterManager.add";
+  "CounterManager.subtract";
+  "CounterManager._increment";
+  "CounterManager._decrement";
+  "CounterManager.current" -> "Counters.Counter.current" [ color = "orange" ];
+  "CounterManager.increment" -> "Counters.Counter.increment" [ color = "orange" ];
+  "CounterManager.increment" -> "Counters.Counter.current" [ color = "orange" ];
+  "CounterManager.decrement" -> "Counters.Counter.decrement" [ color = "orange" ];
+  "CounterManager.decrement" -> "Counters.Counter.current" [ color = "orange" ];
+  "CounterManager.reset" -> "Counters.Counter.current" [ color = "orange" ];
+  "CounterManager.reset" -> "Counters.Counter.decrement" [ color = "orange" ];
+  "CounterManager.set" -> "Counters.Counter.current" [ color = "orange" ];
+  "CounterManager.set" -> "Counters.Counter.decrement" [ color = "orange" ];
+  "CounterManager.set" -> "Counters.Counter.increment" [ color = "orange" ];
+  "CounterManager.add" -> "Counters.Counter.increment" [ color = "orange" ];
+  "CounterManager.add" -> "Counters.Counter.current" [ color = "orange" ];
+  "CounterManager.subtract" -> "Counters.Counter.current" [ color = "orange" ];
+  "CounterManager.subtract" -> "Counters.Counter.decrement" [ color = "orange" ];
+  "CounterManager.subtract" -> "Counters.Counter.current" [ color = "orange" ];
+  "CounterManager._increment" -> "Counters.Counter.increment" [ color = "orange" ];
+  "CounterManager._increment" -> "Counters.Counter.current" [ color = "orange" ];
+  "CounterManager._decrement" -> "Counters.Counter.decrement" [ color = "orange" ];
+  "CounterManager._decrement" -> "Counters.Counter.current" [ color = "orange" ];
+
+
+rankdir=LR
+node [shape=plaintext]
+subgraph cluster_01 { 
+label = "Legend";
+key [label=<<table border="0" cellpadding="2" cellspacing="0" cellborder="0">
+  <tr><td align="right" port="i1">Internal Call</td></tr>
+  <tr><td align="right" port="i2">External Call</td></tr>
+  <tr><td align="right" port="i2">Custom Error Call</td></tr>
+  <tr><td align="right" port="i3">Defined Contract</td></tr>
+  <tr><td align="right" port="i4">Undefined Contract</td></tr>
+  </table>>]
+key2 [label=<<table border="0" cellpadding="2" cellspacing="0" cellborder="0">
+  <tr><td port="i1">&nbsp;&nbsp;&nbsp;</td></tr>
+  <tr><td port="i2">&nbsp;&nbsp;&nbsp;</td></tr>
+  <tr><td port="i3" bgcolor="lightgray">&nbsp;&nbsp;&nbsp;</td></tr>
+  <tr><td port="i4">
+    <table border="1" cellborder="0" cellspacing="0" cellpadding="7" color="lightgray">
+      <tr>
+       <td></td>
+      </tr>
+     </table>
+  </td></tr>
+  </table>>]
+key:i1:e -> key2:i1:w [color="green"]
+key:i2:e -> key2:i2:w [color="orange"]
+key:i2:e -> key2:i2:w [color="red"]
+}
+}
+

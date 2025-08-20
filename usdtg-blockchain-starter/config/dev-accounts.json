@@ -1,0 +1,16 @@
+{
+  "accounts": [
+    {
+      "name": "alice",
+      "coins": [
+        "100000000uusdtg"
+      ]
+    },
+    {
+      "name": "bob",
+      "coins": [
+        "50000000uusdtg"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+Subject,Start Date,All Day Event,Description
+Konsensüs + token ekonomisi planı (Sprint 1: Altyapı & Tasarım),08/30/2025,True,"Assignee: ChatGPT
+Priority: High
+Status: Todo"
+Genesis yapılandırma taslağı (Sprint 1: Altyapı & Tasarım),08/30/2025,True,"Assignee: ChatGPT
+Priority: High
+Status: Todo"
+Sunucu altyapısı kurulumu (Sprint 1: Altyapı & Tasarım),08/30/2025,True,"Assignee: Irfan
+Priority: Medium
+Status: Todo"
+Node yapılandırma script’leri (Sprint 1: Altyapı & Tasarım),09/02/2025,True,"Assignee: ChatGPT
+Priority: Medium
+Status: Todo"
+CLI ve REST API tasarımı (Sprint 1: Altyapı & Tasarım),09/02/2025,True,"Assignee: ChatGPT
+Priority: High
+Status: Todo"
+Genesis zincir kurulumu (Sprint 2: Çekirdek Blockchain & Cüzdan Temeli),09/10/2025,True,"Assignee: ChatGPT
+Priority: High
+Status: Todo"
+Staking & validator modülü kodlama (Sprint 2: Çekirdek Blockchain & Cüzdan Temeli),09/12/2025,True,"Assignee: ChatGPT
+Priority: High
+Status: Todo"
+Web cüzdan UI temel tasarım (Sprint 2: Çekirdek Blockchain & Cüzdan Temeli),09/15/2025,True,"Assignee: Irfan
+Priority: Medium
+Status: Todo"
+Mobil cüzdan temel API bağlantıları (Sprint 2: Çekirdek Blockchain & Cüzdan Temeli),09/18/2025,True,"Assignee: ChatGPT
+Priority: Medium
+Status: Todo"
+Blockchain Explorer kurulumu (Sprint 2: Çekirdek Blockchain & Cüzdan Temeli),09/18/2025,True,"Assignee: ChatGPT
+Priority: Medium
+Status: Todo"
+Testnet başlatma + token dağıtımı (Sprint 3: Testnet & Akıllı Kontrat Entegrasyonu),09/25/2025,True,"Assignee: ChatGPT
+Priority: High
+Status: Todo"
+CosmWasm entegrasyonu (Sprint 3: Testnet & Akıllı Kontrat Entegrasyonu),09/27/2025,True,"Assignee: ChatGPT
+Priority: High
+Status: Todo"
+Testnet cüzdan testleri (Sprint 3: Testnet & Akıllı Kontrat Entegrasyonu),09/28/2025,True,"Assignee: Irfan
+Priority: Medium
+Status: Todo"
+Explorer optimizasyonu (Sprint 3: Testnet & Akıllı Kontrat Entegrasyonu),09/28/2025,True,"Assignee: ChatGPT
+Priority: Medium
+Status: Todo"
+Validator onboarding dökümanları (Sprint 3: Testnet & Akıllı Kontrat Entegrasyonu),09/30/2025,True,"Assignee: Irfan
+Priority: Medium
+Status: Todo"
+Güvenlik audit (kod + modüller) (Sprint 4: Mainnet Hazırlıkları),10/05/2025,True,"Assignee: ChatGPT
+Priority: High
+Status: Todo"
+Mainnet lansman web sayfası (Sprint 4: Mainnet Hazırlıkları),10/06/2025,True,"Assignee: Irfan
+Priority: Medium
+Status: Todo"
+Genesis dosyasının son hali (Sprint 4: Mainnet Hazırlıkları),10/07/2025,True,"Assignee: ChatGPT
+Priority: High
+Status: Todo"
+Partner DApp entegrasyon planı (Sprint 4: Mainnet Hazırlıkları),10/07/2025,True,"Assignee: Irfan
+Priority: Medium
+Status: Todo"
+Mainnet node kurulum script’leri (Sprint 4: Mainnet Hazırlıkları),10/09/2025,True,"Assignee: ChatGPT
+Priority: Medium
+Status: Todo"
+Mainnet’i başlatma (Sprint 5: Mainnet Lansmanı & Listeleme),10/15/2025,True,"Assignee: ChatGPT
+Priority: High
+Status: Todo"
+Duyuru ve topluluk lansmanı (Sprint 5: Mainnet Lansmanı & Listeleme),10/15/2025,True,"Assignee: Irfan
+Priority: High
+Status: Todo"
+Osmosis / Gravity DEX listeleme başvurusu (Sprint 5: Mainnet Lansmanı & Listeleme),10/18/2025,True,"Assignee: ChatGPT
+Priority: Medium
+Status: Todo"
+Kullanıcı onboarding videoları (Sprint 5: Mainnet Lansmanı & Listeleme),10/20/2025,True,"Assignee: Irfan
+Priority: Medium
+Status: Todo"

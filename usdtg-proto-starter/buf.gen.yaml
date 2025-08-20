@@ -1,0 +1,14 @@
+version: v1
+managed:
+  enabled: true
+plugins:
+  - plugin: go
+    out: gen/go
+  - plugin: go-grpc
+    out: gen/go
+  - plugin: buf.build/community/stephenh-ts-proto
+    out: gen/ts
+    opt:
+      - esModuleInterop=true
+      - useOptionals=messages
+      - outputServices=grpc-js  

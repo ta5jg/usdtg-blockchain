@@ -1,0 +1,8 @@
+digraph G {
+  graph [ ratio = "auto", page = "40" ];
+  "StablecoinManager";
+  "AccessControl";
+  "ITokenMinter";
+  "StablecoinManager" -> "AccessControl";
+}
+

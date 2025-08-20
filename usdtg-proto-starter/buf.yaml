@@ -1,0 +1,10 @@
+version: v1
+name: buf.build/usdtg/blockchain
+deps:
+  - buf.build/envoyproxy/protoc-gen-validate
+lint:
+  use:
+    - STANDARD
+breaking:
+  use:
+    - FILE

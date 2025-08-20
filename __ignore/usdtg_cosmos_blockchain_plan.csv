@@ -1,0 +1,19 @@
+Task,Phase,Status,Assignee,Due date,Priority
+"Teknik seçimler (konsensüs, token, blok süresi)",Aşama 1: Hazırlık ve Tasarım,Todo,Irfan & ChatGPT,2025-08-30,High
+Token ekonomisi planı,Aşama 1: Hazırlık ve Tasarım,Todo,Irfan,2025-08-30,High
+Test sunucu kurulumu,Aşama 1: Hazırlık ve Tasarım,Todo,ChatGPT,2025-09-01,Medium
+Genesis zincir oluşturma,Aşama 2: Çekirdek Blockchain Kurulumu,Todo,ChatGPT,2025-09-15,High
+Staking ve validator sisteminin kodlanması,Aşama 2: Çekirdek Blockchain Kurulumu,Todo,ChatGPT,2025-09-25,High
+Minimum node seti ile P2P ağ başlatma,Aşama 2: Çekirdek Blockchain Kurulumu,Todo,ChatGPT,2025-09-30,Medium
+CLI ve REST API entegrasyonu,Aşama 2: Çekirdek Blockchain Kurulumu,Todo,ChatGPT,2025-10-05,Medium
+Web cüzdan geliştirme,Aşama 3: Cüzdan & Explorer Geliştirme,Todo,ChatGPT,2025-10-20,High
+Mobil cüzdan geliştirme (Flutter),Aşama 3: Cüzdan & Explorer Geliştirme,Todo,ChatGPT,2025-11-05,High
+Blockchain explorer kurulumu,Aşama 3: Cüzdan & Explorer Geliştirme,Todo,ChatGPT,2025-11-10,Medium
+Testnet lansmanı,Aşama 4: Testnet,Todo,Irfan & ChatGPT,2025-11-25,High
+Topluluk validator onboarding,Aşama 4: Testnet,Todo,Irfan,2025-12-01,Medium
+CosmWasm entegrasyonu (akıllı kontratlar),Aşama 4: Testnet,Todo,ChatGPT,2025-12-10,High
+Güvenlik audit,Aşama 5: Mainnet Hazırlığı,Todo,ChatGPT,2025-12-20,High
+Genesis dosyası hazırlama,Aşama 5: Mainnet Hazırlığı,Todo,ChatGPT,2025-12-25,High
+Mainnet node kurulumu (10 validator),Aşama 5: Mainnet Hazırlığı,Todo,ChatGPT,2026-01-05,High
+Mainnet lansmanı,Aşama 6: Mainnet Lansmanı,Todo,Irfan & ChatGPT,2026-01-15,High
+DEX listeleme (Osmosis vb.),Aşama 6: Mainnet Lansmanı,Todo,Irfan,2026-01-30,Medium

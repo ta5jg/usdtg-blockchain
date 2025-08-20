@@ -1,0 +1,1 @@
+const T=artifacts.require('USDTgTRC20');module.exports=async d=>{await d.deploy(T)}

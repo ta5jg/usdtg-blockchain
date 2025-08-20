@@ -1,0 +1,112 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:ics.py - http://git.io/lLljaA
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250830
+DESCRIPTION:Assignee: Irfan\nPriority: High\nStatus: Todo
+SUMMARY:Token ekonomisi planı (Aşama 1: Hazırlık ve Tasarım)
+UID:99e38c36-9e64-46ec-86cb-9c4b2fce1b13@99e3.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251005
+DESCRIPTION:Assignee: ChatGPT\nPriority: Medium\nStatus: Todo
+SUMMARY:CLI ve REST API entegrasyonu (Aşama 2: Çekirdek Blockchain Kurulumu)
+UID:ca438d92-26b2-45d3-a941-bdfe39274949@ca43.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251105
+DESCRIPTION:Assignee: ChatGPT\nPriority: High\nStatus: Todo
+SUMMARY:Mobil cüzdan geliştirme (Flutter) (Aşama 3: Cüzdan & Explorer Geliştirme)
+UID:0589b74c-97cc-498c-926e-a6ee907a6bbb@0589.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251201
+DESCRIPTION:Assignee: Irfan\nPriority: Medium\nStatus: Todo
+SUMMARY:Topluluk validator onboarding (Aşama 4: Testnet)
+UID:5eaf9f52-397b-4c57-b8fc-073958c20c80@5eaf.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250901
+DESCRIPTION:Assignee: ChatGPT\nPriority: Medium\nStatus: Todo
+SUMMARY:Test sunucu kurulumu (Aşama 1: Hazırlık ve Tasarım)
+UID:e8cefeb8-4102-487b-8cd6-9bc01fab5d1b@e8ce.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250925
+DESCRIPTION:Assignee: ChatGPT\nPriority: High\nStatus: Todo
+SUMMARY:Staking ve validator sisteminin kodlanması (Aşama 2: Çekirdek Blockchain Kurulumu)
+UID:1a443dfd-8504-4a69-a3da-e5690283db9b@1a44.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251020
+DESCRIPTION:Assignee: ChatGPT\nPriority: High\nStatus: Todo
+SUMMARY:Web cüzdan geliştirme (Aşama 3: Cüzdan & Explorer Geliştirme)
+UID:f4d0efeb-81aa-45e5-b7c2-b2306126aa5d@f4d0.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251225
+DESCRIPTION:Assignee: ChatGPT\nPriority: High\nStatus: Todo
+SUMMARY:Genesis dosyası hazırlama (Aşama 5: Mainnet Hazırlığı)
+UID:6373e474-8bcb-489b-b13b-53e3a6b8610e@6373.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260130
+DESCRIPTION:Assignee: Irfan\nPriority: Medium\nStatus: Todo
+SUMMARY:DEX listeleme (Osmosis vb.) (Aşama 6: Mainnet Lansmanı)
+UID:6ed8f65b-39e9-4dca-93f2-b48832db6333@6ed8.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250930
+DESCRIPTION:Assignee: ChatGPT\nPriority: Medium\nStatus: Todo
+SUMMARY:Minimum node seti ile P2P ağ başlatma (Aşama 2: Çekirdek Blockchain Kurulumu)
+UID:e63664b1-ae99-4638-855b-03fae611e342@e636.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251220
+DESCRIPTION:Assignee: ChatGPT\nPriority: High\nStatus: Todo
+SUMMARY:Güvenlik audit (Aşama 5: Mainnet Hazırlığı)
+UID:2b79a088-d2a5-427c-b402-320bed40dc92@2b79.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260105
+DESCRIPTION:Assignee: ChatGPT\nPriority: High\nStatus: Todo
+SUMMARY:Mainnet node kurulumu (10 validator) (Aşama 5: Mainnet Hazırlığı)
+UID:85cc5b5a-0516-4f2c-ab4c-49c3a06a0c44@85cc.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260115
+DESCRIPTION:Assignee: Irfan & ChatGPT\nPriority: High\nStatus: Todo
+SUMMARY:Mainnet lansmanı (Aşama 6: Mainnet Lansmanı)
+UID:6f4beadc-613b-4c51-a38c-aedbc1e84c9e@6f4b.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250915
+DESCRIPTION:Assignee: ChatGPT\nPriority: High\nStatus: Todo
+SUMMARY:Genesis zincir oluşturma (Aşama 2: Çekirdek Blockchain Kurulumu)
+UID:5aa41f4d-ae72-4346-8720-c661c3a1d2f7@5aa4.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251125
+DESCRIPTION:Assignee: Irfan & ChatGPT\nPriority: High\nStatus: Todo
+SUMMARY:Testnet lansmanı (Aşama 4: Testnet)
+UID:51d8ed47-6741-4c12-adff-5ace8b362035@51d8.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250830
+DESCRIPTION:Assignee: Irfan & ChatGPT\nPriority: High\nStatus: Todo
+SUMMARY:Teknik seçimler (konsensüs\, token\, blok süresi) (Aşama 1: Hazırlık ve Tasarım)
+UID:10a60a94-215c-4255-855f-bb3428d27693@10a6.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251110
+DESCRIPTION:Assignee: ChatGPT\nPriority: Medium\nStatus: Todo
+SUMMARY:Blockchain explorer kurulumu (Aşama 3: Cüzdan & Explorer Geliştirme)
+UID:32d74ba3-1260-480e-b88e-7e75c20cbbe1@32d7.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251210
+DESCRIPTION:Assignee: ChatGPT\nPriority: High\nStatus: Todo
+SUMMARY:CosmWasm entegrasyonu (akıllı kontratlar) (Aşama 4: Testnet)
+UID:96d8984d-1014-4354-ad9c-cf1d1475bcad@96d8.org
+END:VEVENT
+END:VCALENDAR

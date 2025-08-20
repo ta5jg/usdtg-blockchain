@@ -1,0 +1,7 @@
+digraph G {
+  graph [ ratio = "auto", page = "40" ];
+  "CounterManager";
+  "ICounter";
+  "CounterManager" -> "ICounter";
+}
+

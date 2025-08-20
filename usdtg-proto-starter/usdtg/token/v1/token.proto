@@ -1,0 +1,47 @@
+syntax = "proto3";
+
+package usdtg.token.v1;
+
+option go_package = "usdtg/gen/go/usdtg/token/v1;tokenv1";
+
+import "google/protobuf/timestamp.proto";
+
+message GetBalanceRequest {
+  string address = 1;
+}
+
+message GetBalanceResponse {
+  string address = 1;
+  string denom = 2;
+  uint64 amount = 3;
+  google.protobuf.Timestamp as_of = 4;
+}
+
+message TransferRequest {
+  string from_address = 1;
+  string to_address = 2;
+  string denom = 3;
+  uint64 amount = 4;
+}
+
+message TransferResponse {
+  string tx_hash = 1;
+  bool accepted = 2;
+}
+
+message MintRequest {
+  string to_address = 1;
+  string denom = 2;
+  uint64 amount = 3;
+}
+
+message MintResponse {
+  string tx_hash = 1;
+  bool accepted = 2;
+}
+
+service TokenService {
+  rpc GetBalance(GetBalanceRequest) returns (GetBalanceResponse);
+  rpc Transfer(TransferRequest) returns (TransferResponse);
+  rpc Mint(MintRequest) returns (MintResponse);
+}

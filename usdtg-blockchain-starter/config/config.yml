@@ -1,0 +1,35 @@
+# Ignite chain config for USdTG
+version: 1
+build:
+  proto:
+    path: proto
+accounts:
+  - name: alice
+    coins: ["100000000uusdtg"]
+  - name: bob
+    coins: ["50000000uusdtg"]
+faucet:
+  name: alice
+  coins: ["1000000uusdtg"]
+validators:
+  - name: alice
+    bonded: "50000000uusdtg"
+client:
+  chain-id: usdtg-local
+  keyring-backend: test
+genesis:
+  chain_id: usdtg-local
+  app_state:
+    bank:
+      denom_metadata:
+        - base: "uusdtg"
+          display: "usdtg"
+          name: "USdTG"
+          symbol: "USDTG"
+          description: "USdTG native staking/fee token (micro: uusdtg)"
+          denom_units:
+            - denom: "uusdtg"
+              exponent: 0
+              aliases: ["micro-usdtg"]
+            - denom: "usdtg"
+              exponent: 6
