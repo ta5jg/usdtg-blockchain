@@ -1,0 +1,60 @@
+{
+  "name": "TetherGround USD",
+  "symbol": "usdtg",
+  "description": "USDTgToken (USDTg) is a decentralized, TRON-based stable token designed for speed, affordability, and transparency. It supports rapid transaction execution and is ideal for cross-border payments and DeFi integration.",
+  "website": "https://usdtg.net",
+  "explorer": "https://tronscan.org/#/contract/TEpGiLGNB7W9W26LbvtU9wdukrLgLZwFgr",
+  "research": "https://www.usdtg.net/whitepaper.html",
+  "source_code": "https://github.com/ta5jg/usdtg-blockchain",
+  "logo": "https://usdtg.net/images/logo.png",
+  "contract_address": "TEpGiLGNB7W9W26LbvtU9wdukrLgLZwFgr",
+  "platform": "TRON",
+  "type": "TRC20",
+  "decimals": 6,
+  "status": "active",
+  "tags": [
+    "stablecoin",
+    "tron",
+    "defi",
+    "payments",
+    "cross-border",
+    "verified"
+  ],
+  "links": [
+    {
+      "name": "website",
+      "url": "https://usdtg.net"
+    },
+    {
+      "name": "whitepaper",
+      "url": "https://www.usdtg.net/whitepaper.html"
+    },
+    {
+      "name": "github",
+      "url": "https://github.com/ta5jg/usdtg-blockchain"
+    },
+    {
+      "name": "telegram",
+      "url": "https://t.me/usdtg_token"
+    },
+    {
+      "name": "tronscan",
+      "url": "https://tronscan.org/#/contract/TEpGiLGNB7W9W26LbvtU9wdukrLgLZwFgr"
+    }
+  ],
+  "team": [
+    {
+      "name": "Irfan Gedik",
+      "title": "Developer",
+      "email": "irfan@tg-grouptechnology.com"
+    }
+  ],
+  "company": "TG Group Technology",
+  "contact_email": "info@usdtg.net",
+  "verified": true,
+  "audited": false,
+  "multisig": false,
+  "timelock": false,
+  "pausable": false,
+  "upgradeable": false
+}
